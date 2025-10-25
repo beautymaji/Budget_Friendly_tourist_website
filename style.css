@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #0077b6;
+    padding: 15px 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+.logo span {
+    color: #ffd60a;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-links li a:hover {
+    color: #ffd60a;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.hero button {
+    background: #ffd60a;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background: #ffc300;
+}
+
+.destinations {
+    padding: 80px 40px;
+    text-align: center;
+    background: #fff;
+}
+
+.destinations h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #0077b6;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background: #f0f0f0;
+    width: 280px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+    color: #0077b6;
+}
+
+.card p {
+    padding: 0 15px 20px;
+    color: #555;
+}
+
+.budget {
+    padding: 80px 40px;
+    background: #e9f5ff;
+    text-align: center;
+}
+
+.budget-input {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.budget-input input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.budget-input button {
+    background: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.budget-input button:hover {
+    background: #005f87;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.about, .contact {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.about h2, .contact h2 {
+    color: #0077b6;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: #0077b6;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background: #005f87;
+}
+
+footer {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

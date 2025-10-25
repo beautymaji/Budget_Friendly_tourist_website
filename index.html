@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget-Friendly Tourist Spots</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Travel<span>Lite</span></h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#budget">Budget Planner</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Explore The World On A Budget</h2>
+            <p>Discover amazing destinations without breaking the bank.</p>
+            <button onclick="scrollToDestinations()">Start Exploring</button>
+        </div>
+    </section>
+
+    <section id="destinations" class="destinations">
+        <h2>Top Budget Destinations</h2>
+        <div class="cards" id="destinationCards">
+            <!-- Destination cards will load from JS -->
+        </div>
+    </section>
+
+    <section id="budget" class="budget">
+        <h2>Plan Your Trip</h2>
+        <p>Enter your budget to find the best destinations within your price range!</p>
+        <div class="budget-input">
+            <input type="number" id="budgetInput" placeholder="Enter your budget (₹)">
+            <button id="budgetButton">Find Destinations</button>
+        </div>
+        <div id="budgetResults" class="results"></div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>TravelLite helps travelers discover affordable destinations and plan trips wisely. We believe travel should be fun, enriching, and easy on your pocket.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 TravelLite | Made with ❤️ for budget travelers</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
